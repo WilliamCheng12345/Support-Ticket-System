@@ -6,7 +6,12 @@
   "scripts": {
     "dev:client": "cd client && npm run dev",
     "dev:server": "cd server && npm run dev",
-    "dev": "run-p dev:client dev:server"
+    "start": "run-p dev:client dev:server", 
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "postinstall": "run-s install:client install:server"
+
+    
   },
   "keywords": [],
   "author": "",
