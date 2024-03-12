@@ -59,4 +59,4 @@ jobs:
           app-name: 'SupportTicketSystem'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F31521568EA847529BB34B155014DB07 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A24496260B4469A9B774AAE4E104A27 }}
