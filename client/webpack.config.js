@@ -30,7 +30,6 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
-        // include: path.resolve(__dirname,  'client/node_modules/antd'),
       }
     ]
   },
@@ -45,12 +44,12 @@ module.exports = {
     hot: true,
     allowedHosts: 'all',
     historyApiFallback: true,
-    // proxy: [
-    //   {
-    //     context: ['/supportTicket'],
-    //     target: 'http://localhost:3000'
-    //   }
-    // ]
+    proxy: [
+      {
+        context: ['/supportTicket'],
+        target: 'http://localhost:3000'
+      }
+    ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
