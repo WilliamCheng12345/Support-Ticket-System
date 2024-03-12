@@ -43,7 +43,7 @@ module.exports = {
     port: 8080,
 
     hot: true,
-
+    allowedHosts: 'all',
     historyApiFallback: true,
     proxy: [
       {
