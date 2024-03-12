@@ -14,7 +14,6 @@ const config = {
 async function getConnection () {
   try {
     if (!global.connection) {
-      // Directly using the connection string
       global.connection = await sql.connect(config)
       console.log('Connected to Azure SQL Database')
     }

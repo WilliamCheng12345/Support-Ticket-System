@@ -33,7 +33,7 @@ const SupportTicketForm = () => {
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
       autoComplete="on"
-      layout="vertical" // This sets the layout of the form
+      layout="vertical"
     >
       <Form.Item
         label="Name"
